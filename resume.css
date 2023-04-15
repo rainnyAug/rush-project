@@ -18,24 +18,27 @@ ul {
     width: 100%;
     z-index: 9999 !important;
     font-family: 'Inconsolata', monospace;
-  }
+
+    display: flex;
+    justify-content: flex-end;
+}
   
-  li {
-    float: right;
-  }
+li {
+    float: left;
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+/* Change the link color to #111 (black) on hover */
+li a:hover {
     background-color: #111;
-  }
+}
 
 .page{
     padding: 2vw;
