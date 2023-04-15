@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.background-njirapor{
+    background-image: url(https://cdn.discordapp.com/attachments/1088001889846693889/1090171094289371226/ADBE82CC-2827-423F-8700-97641FDE75DF.png);
+}
+
+.bottom{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    font-size: 5vw;
+    color: #FFFFDB;
+}
+
+.background-ktachaon{
+    background-image: url(https://cdn.discordapp.com/attachments/1088001889846693889/1090171094809452555/3.png);
+}
+
+.background-ktachaon, .background-njirapor{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    /*background-position: center;*/
+}
+
+.top{
+    position: absolute;
+    top: 47px;
+    left: 40px;
+    font-size: 5vw;
+    color: #BAD9F5;
+}
+
+.button{
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1vw;
+    cursor: pointer;
+    width: 15%;
+    padding: 1vw 1vw;
+    font-family: 'Inconsolata', monospace;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.button-njirapor{
+    background-color:#FFFFDB;
+    color: #696957;
+}
+
+.button-ktachaon{
+    background-color:#BAD9F5;
+    color: #5c7489;
+}
+

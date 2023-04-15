@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #2c2c2c;
+    margin: 8vh;
+}
+
+.name{
+    display: inline;
+}
+
+/*name*/
+.surname{
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(105.28,48,227), rgb(48,110,227)100%);
+    color: transparent;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: static;
+    text-align: left;
+    font-family: 'Modak', cursive;
+    font-size: 12vw;
+    margin-left: 2vw;
+    width: 100%;
+    height: 75%;
+}
+
+.dprp{
+    color: rgb(255, 251, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: normal;
+    position: static;
+    margin-left: 2vw;
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+
+/*others*/
+.line-1{
+    height: 19vw;
+    border-left: 6px solid rgb(255, 251, 0);
+}
+
+.ftt{
+    position: static;
+    max-width: 100%;
+    height: auto;   
+    display: block;
+}
+
+.img{
+    position: static;
+    max-width: 100%;
+    height: auto;   
+    display: block;
+}
+
+.button {
+    border: none;
+    color: #FBD94A;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 2vw;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 40%;
+    padding: 2vw 10vw;
+    font-family: 'Modak', cursive;
+    display: block;
+}
+
+button:hover, a:hover {
+    opacity: 0.8;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ktachaon{
+    background-color:#306ee3 ;
+}
+
+.njirapor{
+    background-color:#7F52DD;
+}

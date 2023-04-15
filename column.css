@@ -1,0 +1,45 @@
+/*column*/
+.col{
+    display: inline;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.col-4{
+    width: 25%;
+}
+
+.col-3{
+    width: 45%;
+}
+
+.col6{
+    width: 55%;
+}
+
+.col-8{
+    width: 75%;
+}
+
+.col-5{
+    width: 50%;
+}
+
+.col-4, .col-3, .col-8, .col-5, .col-7{
+    padding: 10px;
+    position:relative;
+    float: left;
+}
+
+.row{
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

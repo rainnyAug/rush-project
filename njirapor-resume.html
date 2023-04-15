@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>njirapor</title>
+
+    <link rel="stylesheet" href="column.css">
+    <link rel="stylesheet" href="resume.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body style="margin: 0;">
+    <!--NAVBAR--->
+    
+    <div class="container-fluid">
+        <ul>
+            <li><a href="home.html">Home</a>
+            <li><a href="#aboutnj">About</a>
+            <li><a href="#expnj">Experience</a>
+            <li><a href="#contactnj">Contact</a>
+        </ul>
+    </div>    
+            
+    
+            
+
+    <!--INFO-->
+    <div class="col row page colornj" id="aboutnj"> <!--about-->
+        <div class="col-3" style="padding: 20px;">
+            <img class="self-pic" src="https://media.discordapp.net/attachments/1088001889846693889/1090561930181226536/804A39F0-3B2E-4B75-9228-56D8039A360A.JPG?width=376&height=670" alt="Avatar">
+        </div>
+        <div class="col-6">
+            <div class="topic" style="text-align: left;">About</div> <br>
+            <div class="name">Nantarat Jiraporncharoen</div> <br><br>
+            <div class="detailabout">
+                I am a Grade 12 student at Suankularb Wittiyalai Nonthaburi <br>School and interested in UX/UI design and Graphic design. <br>I sharpened my skills by creating and improving design by using <br>Canva, Figma, etc. and make the design to match <br>the topic requirments.
+                <br><br><br><br>
+                Email: 31235.skn@skn.ac.th <br><br>
+                Phone: (+66)61-343-4424 <br><br>
+                Address: Nonthaburi, Thailand <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="col page secolornj" id="expnj"> <!--experience-->
+        <div class="topic" style="text-align: center;">Skills & Experience</div> <br>
+        <div class="row">
+            <div class="col-4">
+                <div class="container">
+                    <img src="https://cdn.discordapp.com/attachments/1056132745962737714/1090478641860849765/infograpic_for_Biology_class.png" alt="Bio" class="image" w-100>
+                    <div class="overlay">Infographic for Biology class</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <img src="https://cdn.discordapp.com/attachments/1056132745962737714/1090478641554669628/Muzyk_web_UI_design.png" alt="Muzyk" class="image">
+                    <div class="overlay">Muzyk website UI design</div>
+                </div>
+                <div class="container">
+                    <img src="https://media.discordapp.net/attachments/857903989222932480/1090606181057318962/42Bangkok_Rush_porject_UI_design.png?width=1072&height=670" alt="rush" class="image">
+                    <div class="overlay">42Bangkok Rush porject UI design</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="container">
+                    <img src="https://cdn.discordapp.com/attachments/1056132745962737714/1090478642712293418/Earth_component_ppt_for_Geology_class.png" alt="Geo" class="image">
+                    <div class="overlay">Earth component for Geology class</div>
+                </div>
+                <div class="container">
+                    <img src="https://media.discordapp.net/attachments/857903989222932480/1090606201928171570/Atomic_Model_ppt_for_Chemistry_class.png?width=337&height=380" alt="Chemist" class="image">
+                    <div class="overlay">Atomic Model ppt for Chemistry class</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col page" id="contactnj" style="background-color: #2c2c2c;"> <!--contact-->
+        <p class="header" style="color: #7F52DD;">Contact Me!</p> <br>
+        <div class="row">
+            <div class="col-5"> <!--SAME-->
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="njirapor-resume.html"> <!--contact.php-->
+                <label for="Name" class="fcf-label">What should I call you?</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">E-mail</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                    </div>
+                </div>   
+            </div>
+            <div class="col-5"> <!--OWN INFO-->
+                <p class="ques">Have a question, or just want to chat?</p>
+                <p class="contact">Drop me an email or give me a call,<br>I’d love to hear from you. <br><br> E-mail : 31235.skn@skn.ac.th <br><br> Phone : (+66)61-343-4424</p>
+            </div>
+        </div>
+
+        <img class="img1" src="https://cdn.discordapp.com/attachments/1056132745962737714/1090329746237309049/624bd4fb51d7e5589581b6c2_94.png" alt="img1">
+    </div>
+
+    <!--footer-->
+    <footer>
+        <center>
+            <h2>Nantarat Jiraporncharoen</h2>
+            <h4>High School Student & 42Bangkok Discovery Pisciner</h4>
+            <a href="https://www.instagram.com/fayyrxn_/" class="fa fa-instagram"></a>
+            <p>&copy; 42Bangkok - Discovery Piscine</p>
+            <p>- Rush Project -</p>
+            <p>Designed by : ktachaon's group</p>
+        </center>
+    </footer>
+</body>
+</html>
