@@ -43,3 +43,8 @@
     display: table;
     clear: both;
 }
+
+.page{
+    padding: 2vw;
+    width: auto;
+}
