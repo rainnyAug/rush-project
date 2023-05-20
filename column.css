@@ -47,4 +47,5 @@
 .page{
     padding: 2vw;
     width: auto;
+    position: relative;
 }

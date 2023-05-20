@@ -14,7 +14,6 @@ html {
 }
 
 .navbar {
-    box-shadow: 0px 5px 10px 0px #494e60;
     position: fixed;
     width: 100%;
     background-color: #2c2c2c;
@@ -133,7 +132,6 @@ html {
       margin-left: -40px;
       padding-left: 50px;
       transition: transform 0.5s ease-in-out;
-      box-shadow: 5px 0px 10px 0px #494e60;
     }
   
     .navbar .menu-items li {
@@ -337,23 +335,25 @@ input[type=text], input[type=email], textarea{
 }
 
 .img1{
-    bottom: -145vw;
+    bottom: -5vw;
     right: 0px;
     width: 30vw;
     height: auto;
 
     position: absolute;
-    display: block;
+    display: flex;
+    align-self: flex-end;
 }
 
 .img2{
-    bottom: -155vw;
+    bottom: -5vw;
     right: 0px;
     width: 30vw;
     height: auto;
 
     position: absolute;
-    display: block;
+    display: flex;
+    align-self: flex-end;
 }
 
 /*FOOTER*/
